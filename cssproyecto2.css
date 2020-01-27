@@ -68,8 +68,6 @@ footer {
     margin-bottom: 50px;
 }   
 
-}
-
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 80px;
@@ -211,6 +209,11 @@ ul.breadcrumb {
   
   @media (max-width: 768px){
 
+    body {
+      width: 375px;
+      height: 812px;
+    }
+
     nav {
       display: none;
     }
@@ -241,22 +244,61 @@ ul.breadcrumb {
 
 
     header {
-      /* background-color: black; */
-      height: 118px;
-      width: 1024px;
-      text-align: center;
-      margin: 0 auto;
+      background-color: black;
+      height: 150px;
+      width: 768px;
+      margin: 0 220px;
     }
 
     main {
-      /* background-color: rgb(175, 9, 9); */
+      background-color: rgb(131, 146, 133);
+      width: 768px;
+      height: 500px;
+      /* padding-top: -200px;
+      padding-right: 200px;
+      padding-left: 200px; */
+      margin: 0 auto;
+    }
+    
+    /* .responsive2 {
       text-align: center;
-      margin-top: -40px;
-      padding-top: -200px;
-      padding-right: 240px;
-      padding-left: 240px;
-      margin-bottom: 50px;
+      background-color: red;
+    } */
+    
+    p {
+      display: block;
+      /* background-color: rgb(0, 231, 31); */
+      font-size: 4rem;
+      width: 768px;
+      height: 600px;
       
-  } 
+    }
 
+    /* footer {
+      width: 50px;
+      height: 50px;
+      background-color: yellow;
+     
+    }
+
+    footer p {
+      text-align: center;     
+    } */
+
+
+    .idkf {
+      /* background-color: red; */
+      display: block;
+      
+      
+    }
+
+    footer {
+      display: grid;
+      margin-top: 1000px;
+      margin-bottom: 50px;
+      padding-top: 300px;
+      /* background-color: yellow; */
+      text-align: center;
+    }
   }
